@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flameo — moderní kebab | Kladno</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-neutral-900 text-neutral-100 font-sans" style="font-family: Montserrat, sans-serif;">
+
+  <header class="bg-gradient-to-r from-amber-600 via-orange-600 to-red-600">
+    <nav class="container mx-auto p-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo.png" alt="Flameo logo" class="h-14 w-14 object-contain rounded-md shadow-md">
+        <div>
+          <h1 class="text-2xl font-bold">Flameo</h1>
+          <p class="text-sm -mt-1 opacity-90">Moderní kebab a rychlé občerstvení v Kladně</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">O nás</a>
+        <a href="#menu" class="hover:underline">Menu</a>
+        <a href="#contact" class="hover:underline">Kontakt</a>
+      </div>
+      <button id="mobileBtn" class="md:hidden p-2 bg-white/20 rounded-md">Menu</button>
+    </nav>
+  </header>
+
+  <main id="home" class="container mx-auto p-6">
+    <section class="grid md:grid-cols-2 gap-8 items-center py-12">
+      <div>
+        <h2 class="text-4xl font-extrabold mb-4">Chuť, která zapálí tvoje smysly! — Flameo</h2>
+        <p class="mb-6 text-lg">Flameo s.r.o. nabízí moderní fast food zaměřený na kvalitní doner kebab, dürüm, boxy a talíře. Lokální suroviny, domácí dresinky a rychlá obsluha — to je Flameo!</p>
+        <a href="#menu" class="inline-block bg-white text-neutral-900 px-6 py-3 rounded-full font-semibold shadow">Prohlédnout menu</a>
+      </div>
+      <div class="bg-neutral-800 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div class="flex-shrink-0 md:self-center">
+          <img src="assets/logo.png" alt="Flameo logo" class="h-28 w-28 object-contain mx-auto md:mx-0 md:mr-4 rounded-lg shadow">
+        </div>
+        <ul class="mt-6 space-y-2 text-neutral-300">
+          <li><strong>Sídlo:</strong> Jana Palacha 1840, 272 01 Kladno</li>
+          <li><strong>Telefon:</strong> 123 456 789</li>
+          <li><strong>E-mail:</strong> czech.flameo@seznam.cz</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="py-8">
+      <h3 class="text-3xl font-bold mb-4">O nás</h3>
+      <p class="mb-4">Flameo s.r.o. byla založena v roce 2025 s cílem přinést do Kladna moderní koncept rychlého občerstvení. Naším zaměřením jsou kvalitní suroviny, vlastní dresinky a přátelský přístup k zákazníkům. Tým tvoří mladí místní podnikatelé s jasnou vizí: vytvořit značku, která obstojí kvalitou i servisem. Naší prioritou jsou zákazníci, pro které plánujeme vytvořit mnoho slevových akcí například skrze aplikaci.</p>
+
+      <h4 class="text-2xl font-semibold mt-6">Klíčoví lidé</h4>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Adam Zdeněk</h5>
+          <p class="text-sm">Jednatel — strategické řízení, finance</p>
+        </div>
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Jakub Kroufek</h5>
+          <p class="text-sm">Marketing — brand, komunikace</p>
+        </div>
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Šimon Franěk</h5>
+          <p class="text-sm">Hlavní kuchař — receptury, kontrola kvality</p>
+        </div>
+      </div>
+
+      <h4 class="text-2xl font-semibold mt-6">Naše vize</h4>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Aplikace</h5>
+          <p class="text-sm">Aplikace umožňující jedinečné akce pro zákazníky.</p>
+        </div>
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Další pobočky</h5>
+          <p class="text-sm">Jako podnik zavádějící nové trendy na cíleném trhu věříme naší jedinečnosti, která nám umožní další výdejní místa pro Vás!</p>
+        </div>
+        <div class="bg-neutral-800 p-4 rounded-md">
+          <h5 class="font-bold">Hodnocení 5⭐</h5>
+          <p class="text-sm">Věříme, že Váš zážitek z navštívení naší pobočky bude jedinečný. Přesvědčte se sami ještě dnes!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="py-8">
+      <h3 class="text-3xl font-bold mb-4">Menu & Ceník</h3>
+      <p class="mb-8 text-neutral-300 text-lg">
+        Kompletní nabídka našich produktů včetně cen — tak, jak ji najdete i na naší pobočce.
+      </p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Doner kebab</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Doner klasik</strong> – maso, salát, dresink — 135 Kč</li>
+            <li><strong>Doner speciál</strong> – jen maso a dresink — 185 Kč</li>
+            <li><strong>Döner se sýrem</strong> – maso, salát, dresink, ovčí sýr — 145 Kč</li>
+            <li><strong>Döner s hranolky</strong> – maso, salát, dresink, hranolky — 165 Kč</li>
+            <li><strong>Mega Döner</strong> – extra maso, salát, dresink — 170 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Dürüm</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Dürüm klasik</strong> – maso, salát, dresink — 155 Kč</li>
+            <li><strong>Dürüm se sýrem</strong> – maso, salát, sýr, dresink — 165 Kč</li>
+            <li><strong>Dürüm s hranolky</strong> – maso, salát, hranolky, dresink — 180 Kč</li>
+            <li><strong>Dürüm speciál</strong> – jen maso a dresink — 195 Kč</li>
+            <li><strong>Mega Dürüm</strong> – extra maso, salát, dresink — 190 Kč</li>
+            <li><strong>Flameo Dürüm</strong> – maso, salát, olivy, feferonky, sýr, dresink — 190 Kč</li>
+            <li><strong>Malý Dürüm</strong> – maso, salát, dresink — 145 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Kebab box</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Kebab box s hranolky</strong> – maso, salát, hranolky, dresink — 155 Kč</li>
+            <li><strong>Kebab box bez salátu</strong> – maso, hranolky, dresink — 170 Kč</li>
+            <li><strong>Kebab box speciál</strong> – jen maso, dresink — 200 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Kebab talíř</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Talíř s chlebem</strong> – maso, salát, chléb, dresink — 195 Kč</li>
+            <li><strong>Talíř s hranolkami</strong> – maso, salát, hranolky, dresink — 210 Kč</li>
+            <li><strong>Talíř speciál</strong> – jen maso, dresink — 230 Kč</li>
+            <li><strong>Flameo talíř</strong> – maso, salát, sýr, olivy, feferonky, hranolky, dresink — 250 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Doplňky navíc</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Extra maso</strong> — 50 Kč</li>
+            <li><strong>Sýr</strong> — 30 Kč</li>
+            <li><strong>Olivy</strong> — 20 Kč</li>
+            <li><strong>Feferonky</strong> — 15 Kč</li>
+            <li><strong>Hranolky</strong> — 35 Kč</li>
+            <li><strong>Salát mix</strong> — 20 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Dresinky</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li>Jogurtový dresink</li>
+            <li>Česnekový dresink</li>
+            <li>Pikantní / chilli dresink</li>
+            <li>Omáčka tahini</li>
+            <li>Omáčka barbecue</li>
+            <li>Omáčka s bylinkami</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Nealkoholické nápoje</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Minerální voda 0,5 l</strong> — 35 Kč</li>
+            <li><strong>Coca-Cola / Fanta / Sprite 0,5 l</strong> — 45 Kč</li>
+            <li><strong>Ledový čaj (citron / broskev) 0,5 l</strong> — 45 Kč</li>
+            <li><strong>Domácí limonáda 0,5 l</strong> — 50 Kč</li>
+            <li><strong>Pomerančový džus 0,3 l</strong> — 50 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Alkoholické nápoje</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Pilsner Urquell 0,5 l</strong> — 65 Kč</li>
+            <li><strong>Gambrinus 0,5 l</strong> — 60 Kč</li>
+            <li><strong>Radegast 0,5 l</strong> — 60 Kč</li>
+            <li><strong>Víno červené / bílé 0,2 l</strong> — 70 Kč</li>
+            <li><strong>Aperol Spritz 0,3 l</strong> — 90 Kč</li>
+          </ul>
+        </div>
+
+        <div class="menu-card p-6 rounded-2xl shadow-lg fade-up">
+          <h4 class="text-2xl font-semibold mb-3 text-amber-400">Menu sety</h4>
+          <ul class="space-y-2 text-neutral-300">
+            <li><strong>Doner klasik menu</strong> — Doner klasik, malý salát nebo hranolky, nealko 0,5 l — 185 Kč</li>
+            <li><strong>Dürüm menu</strong> — Dürüm klasik, malý salát nebo hranolky, nealko 0,5 l — 210 Kč</li>
+            <li><strong>Kebab box menu</strong> — Kebab box s hranolky, nealko 0,5 l — 185 Kč</li>
+            <li><strong>Kebab talíř menu</strong> — Talíř s hranolkami nebo chlebem, nealko 0,5 l — 230 Kč</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-8">
+      <h3 class="text-3xl font-bold mb-4">Kontakt</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-neutral-800 p-6 rounded-md">
+          <h4 class="font-semibold">Kontaktní údaje</h4>
+          <p class="text-neutral-300 mt-2">Adresa: Jana Palacha 1840, 272 01 Kladno</p>
+          <p class="text-neutral-300">Telefon: 123 456 789</p>
+          <p class="text-neutral-300">E-mail: czech.flameo@seznam.cz</p>
+
+          <div class="mt-4 pt-4 border-t border-neutral-700">
+            <a href="https://www.instagram.com/czech.flameo/" target="_blank"
+               class="insta-icon inline-flex items-center text-amber-400 hover:text-amber-300 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 mr-2">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+              @czech.flameo
+            </a>
+          </div>
+          </div>
+
+        <div class="bg-neutral-800 p-6 rounded-md">
+          <h4 class="font-semibold">Provozní hodiny</h4>
+          <p class="text-neutral-300 mt-2">Ne-Čt: 10:00 – 23:00</p>
+          <p class="text-neutral-300">Pa-So: 11:00 – 3:00</p>
+          <div class="mt-4">
+            <a class="inline-block px-4 py-2 bg-amber-500 rounded-md text-neutral-900 font-semibold"
+               href="mailto:czech.flameo@seznam.cz">Napište nám e-mail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-neutral-800">
+    <div class="container mx-auto p-6 text-center text-neutral-400">
+      <p>&copy; 2025 Flameo s.r.o. — Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="scroll_animations.js"></script>
+</body>
+</html>
