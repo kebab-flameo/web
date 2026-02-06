@@ -34,3 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.target.closest('.mobile-links a')) closeMenu();
   });
 });
+
+
+menuDiv.innerHTML = `
+  <a href="index.html#home" class="block py-3 hover:text-amber-400">Home</a>
+  <a href="index.html#about" class="block py-3 hover:text-amber-400">O nás</a>
+  <a href="index.html#menu" class="block py-3 hover:text-amber-400">Menu</a>
+  <a href="index.html#contact" class="block py-3 hover:text-amber-400">Kontakt</a>
+  <a href="pozice.html" class="block py-3 text-red-500 font-bold hover:text-red-400">🔥 Nabízíme volné pozice</a>`;

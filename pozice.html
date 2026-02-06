@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kariéra — Flameo | Kladno</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-neutral-900 text-neutral-100 font-sans" style="font-family: Montserrat, sans-serif;">
+
+  <header class="bg-gradient-to-r from-amber-600 via-orange-600 to-red-600">
+    <nav class="container mx-auto p-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="flex items-center gap-3">
+            <img src="assets/logo.png" alt="Flameo logo" class="h-14 w-14 object-contain rounded-md shadow-md">
+            <div>
+            <h1 class="text-2xl font-bold">Flameo</h1>
+            <p class="text-sm -mt-1 opacity-90">Kariéra & Volná místa</p>
+            </div>
+        </a>
+      </div>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="index.html#home" class="hover:underline">Home</a>
+        <a href="index.html#about" class="hover:underline">O nás</a>
+        <a href="index.html#menu" class="hover:underline">Menu</a>
+        <a href="index.html#contact" class="hover:underline">Kontakt</a>
+        <span class="px-4 py-2 bg-neutral-900/20 text-white font-bold rounded-full border border-white/20">
+            Kariéra
+        </span>
+      </div>
+      <button id="mobileBtn" class="md:hidden p-2 bg-white/20 rounded-md">Menu</button>
+    </nav>
+  </header>
+
+  <main class="container mx-auto p-6 min-h-screen">
+    <section class="py-12 text-center">
+      <h2 class="text-4xl font-extrabold mb-6 text-amber-500">Staňte se součástí týmu Flameo!</h2>
+      <p class="text-lg text-neutral-300 max-w-2xl mx-auto mb-8">
+        Hledáme spolehlivé parťáky, kteří mají chuť pracovat v moderním prostředí a podílet se na růstu nové značky v Kladně. Nabízíme férové jednání a možnost kariérního růstu.
+      </p>
+    </section>
+
+    <section class="pb-12">
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        
+        <div class="menu-card p-8 rounded-2xl shadow-lg fade-up flex flex-col h-full border-t-4 border-amber-500">
+          <h3 class="text-2xl font-bold mb-2 text-white">Obsluha / Příprava kebabu</h3>
+          <span class="inline-block bg-green-900/50 text-green-400 text-xs px-2 py-1 rounded mb-4 w-fit">Pracovní poměr</span>
+          
+          <div class="space-y-4 flex-grow text-neutral-300">
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co budete dělat?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Příprava doner kebabu, dürümů a talířů.</li>
+                <li>Komunikace se zákazníky a obsluha pokladny.</li>
+                <li>Udržování čistoty na pracovišti.</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co požadujeme?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Spolehlivost a chuť pracovat v mladém kolektivu.</li>
+                <li>Vstupní lékařská prohlídka.</li>
+                <li>Zkušenost v gastru výhodou.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co nabízíme?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Hrubá počáteční měsíční mzda <strong class="text-white">32 000,-</strong> + dýška.</li>
+                <li>Slevy na naše produkty.</li>
+                <li>37 hodin týdně.</li>
+                <li>Příplatky za víkendy, noční, přesčasy a svátky.</li>
+                <li>Zkušební doba 3 měsíce.</li>
+                <li>Flexibilní plánování směn.</li>
+                <li>Dovolená 5 týdnů.</li>
+                <li>Možnost kariérního růstu.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-neutral-700">
+            <a href="mailto:czech.flameo@seznam.cz?subject=Zájem o pozici Obsluha" 
+               class="block w-full text-center bg-amber-600 hover:bg-amber-500 text-white font-bold py-3 rounded-lg transition-colors">
+               Mám zájem
+            </a>
+          </div>
+        </div>
+
+        <div class="menu-card p-8 rounded-2xl shadow-lg fade-up flex flex-col h-full border-t-4 border-red-600">
+          <h3 class="text-2xl font-bold mb-2 text-white">Brigádník / Výpomoc</h3>
+          <span class="inline-block bg-blue-900/50 text-blue-400 text-xs px-2 py-1 rounded mb-4 w-fit">DPP / DPČ</span>
+          
+          <div class="space-y-4 flex-grow text-neutral-300">
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co budete dělat?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Výpomoc v kuchyni ve špičkách.</li>
+                <li>Doplňování surovin a úklid.</li>
+                <li>Jednoduchá příprava objednávek.</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co požadujeme?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Věk min. 18 let (kvůli práci v noci o víkendu).</li>
+                <li>Časovou flexibilitu (hlavně víkendy).</li>
+                <li>Vstupní lékařská prohlídka.</li>
+                <li>Spolehlivost a chuť pracovat v mladém kolektivu.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="text-amber-400 font-semibold mb-1">Co nabízíme?</h4>
+              <ul class="list-disc list-inside text-sm space-y-1">
+                <li>Mzda <strong class="text-white">140 - 160 Kč/hod hrubého</strong>.</li>
+                <li>Flexibilní plánování směn.</li>
+                <li>Příplatky za víkendy, noční, přesčasy a svátky.</li>
+                <li>Možnost kariérního růstu.</li>
+                <li>Slevy na naše produkty.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-neutral-700">
+            <a href="mailto:czech.flameo@seznam.cz?subject=Zájem o pozici Brigáda" 
+               class="block w-full text-center bg-red-600 hover:bg-red-400 text-white font-bold py-3 rounded-lg transition-colors">
+               Mám zájem
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="text-center py-8 bg-neutral-800/50 rounded-xl mb-12">
+      <h3 class="text-2xl font-bold mb-4">Nevybrali jste si?</h3>
+      <p class="text-neutral-300 mb-6 text-center mx-auto">I tak nám pošlete životopis. Rádi se s Vámi domluvíme na oboustranně přívětivých podmínkách.</p>
+      <a href="mailto:czech.flameo@seznam.cz" class="text-amber-400 hover:text-amber-300 underline font-semibold">Napište nám zde.</a>
+    </section>
+
+  </main>
+
+  <footer class="bg-neutral-800">
+    <div class="container mx-auto p-6 text-center text-neutral-400">
+      <p>&copy; 2026 Flameo s.r.o. — Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="scroll_animations.js"></script>
+</body>
+</html>
